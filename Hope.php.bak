@@ -16,7 +16,7 @@ echo $_GET['table']; ?> <br>
 <br>
 น้ำซุป : <?php echo $_GET['b']; ?>
 <br>
-<?php echo $_GET['e']; ?>
+
 
 
 

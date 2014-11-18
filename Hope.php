@@ -11,12 +11,30 @@
 <br>โต๊ะ <?php
 echo $_GET['table']; ?> <br>
 
-
+จำนวนชาม : <?php echo $_GET['jan']; ?>
+<br>
 เส้น : <?php echo $_GET['a']; ?>
 <br>
 น้ำซุป : <?php echo $_GET['b']; ?>
 <br>
-
+เครื่องปรุง : <?php echo $_GET['l']; ?>
+<br>
+เครื่องปรุง : <?php echo $_GET['ll']; ?>
+<br>
+เครื่องปรุง : <?php echo $_GET['lll']; ?>
+<br>
+เครื่องปรุง : <?php echo $_GET['q']; ?>
+<br>
+เครื่องปรุง : <?php echo $_GET['w']; ?>
+<br>
+เครื่องปรุง : <?php echo $_GET['m']; ?>
+<br>
+พิเศษ : <?php echo $_GET['y']; ?>
+<br>
+พิเศษ : <?php echo $_GET['uu']; ?>
+<br>
+เครื่องปรุง : <?php echo $_GET['l']; ?>
+<br>
 
 
 

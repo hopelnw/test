@@ -8,10 +8,15 @@
 <title>Untitled Document</title>
 </head>
 
-<body>
+<body  background="yy.jpg" > 
+
+<FONT COLOR=white>
 
 <center>
-<br>โต๊ะ <?php
+<H2><table WIDTH="250" BGCOLOR="#ffff00" HEIGHT="100">
+  <tr>
+  อาหารที่คุณสั่ง คือ<br>
+    <td width="332" height="78">โต๊ะ <?php
 echo $_GET['table']; ?> <br>
 
 จำนวนชาม : <?php echo $_GET['jan']; ?>
@@ -65,9 +70,12 @@ echo $_GET['table']; ?> <br>
 <br>
 <?php }?>
 
-รวม ราคา<?php echo $_GET['jan']*30+($_GET['uu']*55)+($_GET['y']*55)+($_GET['uuu']*15); ?>
+รวม ราคา<?php echo $_GET['jan']*30+($_GET['uu']*55)+($_GET['y']*55)+($_GET['uuu']*15); ?>&nbsp;</td>
+  </tr>
+</table>
 
-
+<br>
+</H2>
 </center>
 </body>
 </html>

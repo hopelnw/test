@@ -1,15 +1,77 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
-<link href="bootstrap/js/bootstrap.min.js" rel="stylesheet">
-<title>Untitled Document</title>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Section scroller template</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+<nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar-collapsible">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="#section1">What</a></li>
+        <li><a href="#section2">When</a></li>
+        <li><a href="#section3">How</a></li>
+        <li><a href="#section4">Four</a></li>
+        <li><a href="#section5">Five</a></li>
+        <li><a href="#section6">Why</a></li>
+        <li><a href="#section7">Who</a></li>
+        <li>&nbsp;</li>
+      </ul>
+      <form class="navbar-form">
+        <div class="form-group" style="display:inline;">
+          <div class="input-group"> 
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-chevron-down"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+                <li><a href="#">Category 3</a></li>
+                <li><a href="#">Category 4</a></li>
+                <li><a href="#">Category 5</a></li> 
+              </ul>
+            </div>
+            <input type="text" class="form-control" placeholder="What are searching for?">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span> </span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</nav>
 
-<body>
-<form id="form1" name="form1" method="get" action="Hope.php">
+<section class="container-fluid" id="section1">
+  	<h1 class="text-center v-center">ร้านก๋วยเตี๋ยวต้มยำ.</h1>
+ 	
+  	<div class="container">
+      <div class="row">
+          ยินดีต้อนรับครับ/ค่ะ
+          <div class="col-sm-4 text-center">
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1 text-center">
+                <h3>กรุณาสั่งอาหาร(ต่อคน)</h3><p>หากมีข้อสงสัย คำถามต่างๆ กรุณาสอบถามพนักงาน</p><i class="fa fa-user fa-5x"></i></div>
+            </div>
+          </div>
+          <div class="col-sm-4 text-center">
+            <div class="row"><form id="form1" name="form1" method="get" action="Hope.php">
   <strong><center>
     <p>ก๋วยเตี๋ยวต้มยำบ้านลาดจุดข้างวัง  </p>
     <p>
@@ -90,13 +152,13 @@
 มาให้แล้ว </p>
 <p>***ต้องการเพิ่มเครื่องปรุง กรุณาเลือก เครื่องหมายถูกหน้าช่องว่าง***
 </p>
-  <table width="250" border="1">
+  <table width="405" border="1">
     <tr>
-      <td width="177"><label for="กุ้ง2"><strong>กุ้งแม่น้ำ  55บาท/</strong></label>
+      <td width="172"><label for="กุ้ง2"><strong>กุ้งแม่น้ำ  55บาท/</strong></label>
         <strong>
         <label for="เท็กกุ้ง2">ตัว</label>
       </strong></td>
-      <td width="57"><input type="text" name="y" id="y"  value="" /></td>
+      <td width="171"><input type="text" name="y" id="y"  value="" /></td>
     </tr>
     <tr>
       <td><strong>ปลาหมึก  55บาท/ตัว</strong></td>
@@ -125,5 +187,17 @@
 
 <p>&nbsp;</p>
 </form>
-</body>
+              
+            </div>
+          </div>
+      </div><!--/row-->
+    <div class="row"><br></div>
+  </div><!--/container-->
+</section>
+
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
 </html>

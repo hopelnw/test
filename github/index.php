@@ -2,6 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="bootstrap/js/bootstrap.min.js" rel="stylesheet">
 <title>Untitled Document</title>
 </head>
 
@@ -74,9 +77,9 @@
   <p>***<strong>ก๋วยเตี๋ยวจะได้เครื่องปรุง</strong>
     <input type="checkbox" name="l" id="l" />
     <label for="l">หมูสับ</label>
-    <input type="checkbox" name="ll" id="ll" />
+    <input type="checkbox" name="k" id="k" />
     <label for="ll">ลูกชิ้น</label>
-    <input type="checkbox" name="lll" id="lll" />
+    <input type="checkbox" name="kk" id="kk" />
     <label for="lll">ตับลวก</label>
     <input type="checkbox" name="q" id="q" />
 <label for="q">ผักบุ้ง</label>
@@ -93,17 +96,17 @@
         <strong>
         <label for="เท็กกุ้ง2">ตัว</label>
       </strong></td>
-      <td width="57"><input type="text" name="y" id="y" /></td>
+      <td width="57"><input type="text" name="y" id="y"  value="" /></td>
     </tr>
     <tr>
       <td><strong>ปลาหมึก  55บาท/ตัว</strong></td>
       <td><label for="uu"></label>
-      <input type="text" name="uu" id="uu" /></td>
+      <input type="text" name="uu" id="uu"  value=""/></td>
     </tr>
     <tr>
       <td><strong>ไข่มะตูมฟองล่ะ15บาท/ฟอง</strong></td>
       <td><label for="uuu"></label>
-      <input type="text" name="uuu" id="uuu" /></td>
+      <input type="text" name="uuu" id="uuu"  value=""/></td>
     </tr>
   </table>
   <p>&nbsp;</p>
@@ -112,18 +115,12 @@
     </label>
   </p>
 <label for="เท็กไข่มะตูม"></label>
-<p>ราคา รวม       
-   <table width="200" border="1">
-  <tr>
-    <td>&nbsp;</td>
-  </tr>
-</table>
-
-บาท</p>
 
 
-  <input type="submit" name="ตกลง" id="ตกลง" value="สั่งก๋วยเตี๋ยว" />	
-  <input type="submit" name="เครีย" id="เครีย" value="Clear" />
+
+  <input type="submit"class="btn btn-success" name="ตกลง" id="ตกลง" value="สั่งก๋วยเตี๋ยว" />	
+  
+  <input type="reset"class="btn btn-danger" name="เครีย" id="clear" value="clear" />
  </center></td>
 
 <p>&nbsp;</p>
